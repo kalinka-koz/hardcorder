@@ -16,7 +16,7 @@ def rectangle(a,b):
         print("Któryś z podanych wymiarów jest równy 0 lub mniejszy od 0")
 figura=["koło","trójkąt", "prostokąt"]
 print(figura)
-f=input("Wybiesz figurę z powyższej listy, której chcesz obliczyć pole. Jeśli chcesz obliczyć pole koła to wpisz 1, jeśli pole trójkąta to wpisz 2, jesłi pole prostokąta to wpisz 3\n ")
+f=input("Wybiesz figurę z powyższej listy, której chcesz obliczyć pole. Jeśli chcesz obliczyć pole koła to wpisz 1, jeśli pole trójkąta to wpisz 2, jeśli pole prostokąta to wpisz 3\n ")
 if not f.isnumeric():
     print("Nie poprawnie wybrano figurę")
 else:
